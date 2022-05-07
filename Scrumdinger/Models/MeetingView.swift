@@ -29,7 +29,7 @@ struct MeetingView: View {
             .accessibilityValue("10 minutes")
             Circle()
                 .strokeBorder(lineWidth: 24)
-            HStack{
+            HStack {
                 Text("Speaker 1 of 3")
                 Spacer()
                 Button(action: {}) {

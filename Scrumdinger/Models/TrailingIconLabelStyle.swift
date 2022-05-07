@@ -5,7 +5,6 @@
 //  Created by Carlos Corvalan on 5/4/22.
 //
 
-import Foundation
 import SwiftUI
 
 struct TrailingIconLabelStyle: LabelStyle {
