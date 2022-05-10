@@ -24,6 +24,7 @@
 		DBD721392829AF26003A5FD6 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD721382829AF26003A5FD6 /* ScrumProgressViewStyle.swift */; };
 		DBD7213B2829B66F003A5FD6 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213A2829B66F003A5FD6 /* ScrumTimer.swift */; };
 		DBD7213D282AAB35003A5FD6 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */; };
+		DBD7213F282ABD3D003A5FD6 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		DBD721382829AF26003A5FD6 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		DBD7213A2829B66F003A5FD6 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */,
 				DBD7213628298F0C003A5FD6 /* MeetingHeaderView.swift */,
 				DBB5074628232A420012A4FB /* DetailView.swift */,
+				DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */,
 				DBD7213028254788003A5FD6 /* DetailEditView.swift */,
 				DBD7213428256E3E003A5FD6 /* ThemePicker.swift */,
 				DBD721382829AF26003A5FD6 /* ScrumProgressViewStyle.swift */,
@@ -199,6 +202,7 @@
 				DBB507282821A2BA0012A4FB /* ScrumdingerApp.swift in Sources */,
 				DBD7213328256BEB003A5FD6 /* ThemeView.swift in Sources */,
 				DBB507412822C6C80012A4FB /* CardView.swift in Sources */,
+				DBD7213F282ABD3D003A5FD6 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
