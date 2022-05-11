@@ -25,6 +25,7 @@
 		DBD7213B2829B66F003A5FD6 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213A2829B66F003A5FD6 /* ScrumTimer.swift */; };
 		DBD7213D282AAB35003A5FD6 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */; };
 		DBD7213F282ABD3D003A5FD6 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */; };
+		DBD72142282BF4B7003A5FD6 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = DBD72141282BF4B7003A5FD6 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		DBD7213A2829B66F003A5FD6 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		DBD72141282BF4B7003A5FD6 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,21 @@
 		DBB507262821A2BA0012A4FB /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				DBB507402822C6C80012A4FB /* CardView.swift */,
+				DBD7213028254788003A5FD6 /* DetailEditView.swift */,
+				DBB5074628232A420012A4FB /* DetailView.swift */,
+				DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */,
+				DBD7213628298F0C003A5FD6 /* MeetingHeaderView.swift */,
+				DBB507292821A2BA0012A4FB /* MeetingView.swift */,
 				DBB5073B2822C0C20012A4FB /* Models */,
+				DBB507272821A2BA0012A4FB /* ScrumdingerApp.swift */,
+				DBD721382829AF26003A5FD6 /* ScrumProgressViewStyle.swift */,
+				DBB507442823218D0012A4FB /* ScrumsView.swift */,
+				DBD7213428256E3E003A5FD6 /* ThemePicker.swift */,
+				DBD7213228256BEB003A5FD6 /* ThemeView.swift */,
+				DBB507422822D1160012A4FB /* TrailingIconLabelStyle.swift */,
 				DBB5072B2821A2BB0012A4FB /* Assets.xcassets */,
+				DBD72140282BF487003A5FD6 /* Resources */,
 				DBB5072D2821A2BB0012A4FB /* Preview Content */,
 			);
 			path = Scrumdinger;
@@ -97,24 +112,20 @@
 		DBB5073B2822C0C20012A4FB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DBB507292821A2BA0012A4FB /* MeetingView.swift */,
-				DBB507442823218D0012A4FB /* ScrumsView.swift */,
-				DBD7213228256BEB003A5FD6 /* ThemeView.swift */,
-				DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */,
-				DBD7213628298F0C003A5FD6 /* MeetingHeaderView.swift */,
-				DBB5074628232A420012A4FB /* DetailView.swift */,
 				DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */,
-				DBD7213028254788003A5FD6 /* DetailEditView.swift */,
-				DBD7213428256E3E003A5FD6 /* ThemePicker.swift */,
-				DBD721382829AF26003A5FD6 /* ScrumProgressViewStyle.swift */,
-				DBD7213A2829B66F003A5FD6 /* ScrumTimer.swift */,
-				DBB507422822D1160012A4FB /* TrailingIconLabelStyle.swift */,
-				DBB507402822C6C80012A4FB /* CardView.swift */,
-				DBB507272821A2BA0012A4FB /* ScrumdingerApp.swift */,
-				DBB5073C2822C0DA0012A4FB /* Theme.swift */,
 				DBB5073E2822C33E0012A4FB /* DailyScrum.swift */,
+				DBD7213A2829B66F003A5FD6 /* ScrumTimer.swift */,
+				DBB5073C2822C0DA0012A4FB /* Theme.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DBD72140282BF487003A5FD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBD72141282BF4B7003A5FD6 /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD72142282BF4B7003A5FD6 /* ding.wav in Resources */,
 				DBB5072F2821A2BB0012A4FB /* Preview Assets.xcassets in Resources */,
 				DBB5072C2821A2BB0012A4FB /* Assets.xcassets in Resources */,
 			);

@@ -46,4 +46,3 @@ struct MeetingFooterView_Previews: PreviewProvider {
             .previewLayout(.sizeThatFits)
     }
 }
-

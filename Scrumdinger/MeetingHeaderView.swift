@@ -22,8 +22,8 @@ struct MeetingHeaderView: View {
         secondsRemaining / 60
     }
     var body: some View {
-        VStack{
-            ProgressView(value: 5, total: 15)
+        VStack {
+            ProgressView(value: progress)
                 .progressViewStyle(ScrumProgressViewStyle(theme: theme))
             HStack {
                 VStack(alignment: .leading) {
@@ -39,16 +39,17 @@ struct MeetingHeaderView: View {
                         .labelStyle(.trailingIcon)
                 }
             }
-            .accessibilityElement(children: .ignore)
-            .accessibilityLabel("Time remaining")
-            .accessibilityValue("\(minutesRemaining) minutes")
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Time remaining")
+        .accessibilityValue("\(minutesRemaining) minutes")
         .padding([.top, .horizontal])
     }
 }
 
 struct MeetingHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        MeetingHeaderView(secondsElapsed: 300, secondsRemaining: 600, theme: .seafoam)
+        MeetingHeaderView(secondsElapsed: 60, secondsRemaining: 180, theme: .bubblegum)
+            .previewLayout(.sizeThatFits)
     }
 }
