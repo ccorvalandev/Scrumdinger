@@ -26,6 +26,7 @@
 		DBD7213D282AAB35003A5FD6 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */; };
 		DBD7213F282ABD3D003A5FD6 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */; };
 		DBD72142282BF4B7003A5FD6 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = DBD72141282BF4B7003A5FD6 /* ding.wav */; };
+		DBD72144282D4B4C003A5FD6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD72143282D4B4C003A5FD6 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		DBD7213C282AAB35003A5FD6 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		DBD72141282BF4B7003A5FD6 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		DBD72143282D4B4C003A5FD6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */,
 				DBB5073E2822C33E0012A4FB /* DailyScrum.swift */,
+				DBD72143282D4B4C003A5FD6 /* History.swift */,
 				DBD7213A2829B66F003A5FD6 /* ScrumTimer.swift */,
 				DBB5073C2822C0DA0012A4FB /* Theme.swift */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD72144282D4B4C003A5FD6 /* History.swift in Sources */,
 				DBD7213528256E3E003A5FD6 /* ThemePicker.swift in Sources */,
 				DBD721392829AF26003A5FD6 /* ScrumProgressViewStyle.swift in Sources */,
 				DBD7213D282AAB35003A5FD6 /* MeetingFooterView.swift in Sources */,
