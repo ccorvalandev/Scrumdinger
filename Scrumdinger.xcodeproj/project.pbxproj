@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2C0DA5285769F300827154 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C0DA4285769F300827154 /* ErrorWrapper.swift */; };
 		DBB507282821A2BA0012A4FB /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB507272821A2BA0012A4FB /* ScrumdingerApp.swift */; };
 		DBB5072A2821A2BA0012A4FB /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB507292821A2BA0012A4FB /* MeetingView.swift */; };
 		DBB5072C2821A2BB0012A4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB5072B2821A2BB0012A4FB /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB2C0DA4285769F300827154 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorWrapper.swift; path = Scrumdinger/ErrorWrapper.swift; sourceTree = SOURCE_ROOT; };
 		DBB507242821A2BA0012A4FB /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB507272821A2BA0012A4FB /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		DBB507292821A2BA0012A4FB /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		DBB5073B2822C0C20012A4FB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DB2C0DA4285769F300827154 /* ErrorWrapper.swift */,
 				DBD7213E282ABD3D003A5FD6 /* AVPlayer+Ding.swift */,
 				DBB5073E2822C33E0012A4FB /* DailyScrum.swift */,
 				DBD72143282D4B4C003A5FD6 /* History.swift */,
@@ -215,6 +218,7 @@
 				DBB5074728232A420012A4FB /* DetailView.swift in Sources */,
 				DBD7213728298F0C003A5FD6 /* MeetingHeaderView.swift in Sources */,
 				DBD7213128254788003A5FD6 /* DetailEditView.swift in Sources */,
+				DB2C0DA5285769F300827154 /* ErrorWrapper.swift in Sources */,
 				DBB507432822D1160012A4FB /* TrailingIconLabelStyle.swift in Sources */,
 				DBB5073D2822C0DA0012A4FB /* Theme.swift in Sources */,
 				DBB507452823218D0012A4FB /* ScrumsView.swift in Sources */,
